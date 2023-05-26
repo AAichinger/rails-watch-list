@@ -11,6 +11,25 @@
   </head>
 
   <body>
+   <header>
+    <div class="bg-white rounded shadow">
+      <div class="d-flex">
+        <div class="mr-auto p-2">
+          <h1>🥤</h1>
+        </div>
+        <div class="p-2  ">
+            <ul>
+              <li>
+                <%= link_to 'New list', new_list_path %>
+              </li>
+              <li>
+                <%= link_to 'My Lists', lists_path %>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+    </header>
     <%= yield %>
   </body>
 </html>

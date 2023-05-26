@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+      <h3>Create a new List</h3>
+      <ul class="list-group mb-3">
+
+        <%= simple_form_for @list do |f| %>
+          <%= f.input :name, placeholder: 'Comedy' %>
+          <%= f.submit class: 'btn btn-flat' %>
+        <% end %>
+
+      </div>
+    </div>
+  </div>
+</div>
